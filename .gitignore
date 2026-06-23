@@ -1,0 +1,24 @@
+# GridLocked - Git Ignore
+node_modules/
+.next/
+.env
+.env.local
+.env.development
+.env.production
+.env.staging
+.env*.local
+
+# Temporary setup/start scripts
+setup.ps1
+start.bat
+
+# Generated planning documents
+implementation_plan.md
+implementation_plan1.md
+implementation_plan2.md
+implementation_plan*.md
+
+# Local development artifacts & backup files
+public/data/*.backup
+*.backup
+*.log
