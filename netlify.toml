@@ -1,6 +1,6 @@
 [build]
   base = "frontend"
-  publish = "frontend/.netlify/output"
+  publish = ".netlify/output"
   command = "npm run build"
 
 [[plugins]]
