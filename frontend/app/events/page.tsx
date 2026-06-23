@@ -18,8 +18,8 @@ export default function EventDashboard() {
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('desc');
   const [expandedId, setExpandedId] = useState<string | null>(null);
 
-  const corridors = useMemo(() => ['all', ...new Set(filteredEvents.map(e => e.corridor).filter(c => c !== 'Non-corridor'))].slice(0, 30), [filteredEvents]);
-  const zones = useMemo(() => ['all', ...new Set(filteredEvents.map(e => e.zone).filter(Boolean))].slice(0, 20), [filteredEvents]);
+  const corridors = useMemo(() => ['all', ...Array.from(new Set(filteredEvents.map(e => e.corridor).filter(c => c !== 'Non-corridor')))].slice(0, 30), [filteredEvents]);
+  const zones = useMemo(() => ['all', ...Array.from(new Set(filteredEvents.map(e => e.zone).filter(Boolean)))].slice(0, 20), [filteredEvents]);
 
   const sorted = useMemo(() => {
     return [...filteredEvents].sort((a, b) => {

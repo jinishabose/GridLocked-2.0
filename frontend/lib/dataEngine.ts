@@ -485,10 +485,8 @@ export function generateAIInsights(events: TrafficEvent[], corridorStats: Corrid
     dataPoints: events.length,
     timestamp: new Date().toISOString(),
   });
-
-  // Pattern 4: Hotspot concentration
   const hotspots = events.filter((e) => e.is_hotspot === 1);
-  const hotspotCorridors = [...new Set(hotspots.map((e) => e.corridor).filter((c) => c !== 'Non-corridor'))];
+  const hotspotCorridors = Array.from(new Set(hotspots.map((e) => e.corridor).filter((c) => c && c !== 'Non-corridor')));
   insights.push({
     id: 'ai-hotspots',
     category: 'anomaly',
