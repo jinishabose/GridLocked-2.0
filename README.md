@@ -1,4 +1,4 @@
-# GridLocked — NHAI Traffic Command & Intelligence Platform
+# GridLocked — Traffic Command & Intelligence Platform
 
 > **Predict · Plan · Prevent** — GridLock 2.0 Event-Driven Congestion Forecasting Challenge
 
@@ -146,3 +146,4 @@ The platform uses a **full abstraction layer** for the Mappls map:
 ---
 
 *GridLocked v2.0 — Built for GridLock 2.0 Challenge*
+*made By Code Crumble*
