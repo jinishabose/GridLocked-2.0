@@ -1,8 +1,9 @@
 # GridLocked — Traffic Command & Intelligence Platform
 
 > **Predict · Plan · Prevent** — GridLock 2.0 Event-Driven Congestion Forecasting Challenge
-
-A national-scale traffic intelligence platform built for NHAI command centers, featuring real-time event monitoring, AI-powered congestion forecasting, resource deployment optimization, and diversion planning.
+GridLocked 2.0 : AI-Powered Traffic Intelligence and Event Impact Decision Support Platform
+live site:gridlocked-31409.netlify.app/
+A national-scale traffic intelligence platform built for Bengaluru Traffic command centers, featuring real-time event monitoring, AI-powered congestion forecasting, resource deployment optimization, and diversion planning.
 
 ---
 
